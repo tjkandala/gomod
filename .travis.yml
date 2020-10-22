@@ -1,0 +1,9 @@
+branches:
+  only:
+  - master
+language: go
+addons:
+  apt:
+    update: true
+script:
+  - go test ./...
